@@ -235,12 +235,13 @@ const characters = [
     "img": ""
   },
 ];
+const charLabel = document.getElementById('charLabel');
+const randomButton = document.querySelector('.random');
 
 function randomizeCharacters() {
-  console.log(characters[Math.floor(characters.length * Math.random())]);
-  console.log('vincent');
+  let chosenCharacter = characters[Math.floor(characters.length * Math.random())];
+  console.log(charLabel);
+  charLabel.innerHTML = `${chosenCharacter.label}`;
 };
 
-document.addEventListener('click', randomizeCharacters, true);
-
-randomizeCharacters();
+randomButton.addEventListener('click', randomizeCharacters, true);
