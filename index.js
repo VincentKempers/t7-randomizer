@@ -234,6 +234,11 @@ const characters = [
     "label": "Zafina",
     "img": ""
   },
+  {
+    "name": "Fahkumram",
+    "label": "Fahkumram",
+    "img": ""
+  },
 ];
 const charLabel = document.getElementById('charLabel');
 const randomButton = document.querySelector('.random');
