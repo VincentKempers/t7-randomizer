@@ -1,6 +1,32 @@
-* {
+:root {
+  --text-color-normal: black;
+  --text-color-light: hsl(210, 15%, 35%);
+  --text-color-richer: hsl(210, 50%, 72%);
+  --text-color-highlight: hsl(25, 70%, 45%);
+  --background: url(imgs/infiniteazure1.jpg);
+}
+
+html[data-theme='dark'] {
+  --text-color-normal: white;
+  --text-color-light: hsl(210, 15%, 35%);
+  --text-color-richer: hsl(210, 50%, 72%);
+  --text-color-highlight: hsl(25, 70%, 45%);
+	--background: url(imgs/infiniteazure2.jpg);
+}
+
+*{
   font-smooth: always;
   font-family: sans-serif;
+  color: var(--text-color-normal);
+}
+html {
+  background: var(--background);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-attachment: cover;
+  background-color: transparent;
 }
 
 main {
@@ -8,6 +34,15 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width:auto;
+  height: 98vh;
+}
+
+.switch-mode {
+  position: absolute;
+  top:10px;
+  right:10px;
+  font-size: 2em;
 }
 
 h2 {
