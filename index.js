@@ -2,246 +2,253 @@ const characters = [
   {
     "name": "akuma",
     "label": "Akuma",
-    "img": ""
+    "img": "imgs/chars/akuma.png"
   },
   {
     "name": "alisa",
     "label": "Alisa",
-    "img": ""
+    "img": "imgs/chars/akuma.png"
   },
   {
     "name": "anna",
     "label": "Anna",
-    "img": ""
+    "img": "imgs/chars/akuma.png"
   },
   {
     "name": "armorKing",
     "label": "Armor King",
-    "img": ""
+    "img": "imgs/chars/armoredking.png"
   },
   {
     "name": "asuka",
     "label": "Asuka",
-    "img": ""
+    "img": "imgs/chars/asuka.png"
   },
   {
     "name": "bob",
     "label": "Bob",
-    "img": ""
+    "img": "imgs/chars/bob.png"
   },
   {
     "name": "bryan",
     "label": "Bryan",
-    "img": ""
+    "img": "imgs/chars/bryan.png"
   },
   {
     "name": "claudio",
     "label": "Claudio",
-    "img": ""
+    "img": "imgs/chars/claudio.png"
   },
   {
     "name": "devilJin",
     "label": "Devil Jin",
-    "img": ""
+    "img": "imgs/chars/devil-jin.png"
   },
   {
     "name": "dragunov",
     "label": "Dragunov",
-    "img": ""
+    "img": "imgs/chars/dragunov.png"
   },
   {
     "name": "eddy",
     "label": "Eddy",
-    "img": ""
+    "img": "imgs/chars/eddy.png"
   },
   {
     "name": "eliza",
     "label": "Eliza",
-    "img": ""
+    "img": "imgs/chars/eliza.png"
   },
   {
     "name": "feng",
     "label": "Feng",
-    "img": ""
+    "img": "imgs/chars/feng.png"
   },
   {
     "name": "ganryu",
     "label": "Ganryu",
-    "img": ""
+    "img": "imgs/chars/ganryu.png"
   },
   {
     "name": "geese",
     "label": "Geese",
-    "img": ""
+    "img": "imgs/chars/geese.png"
   },
   {
     "name": "gigas",
     "label": "Gigas",
-    "img": ""
+    "img": "imgs/chars/gigas.png"
   },
   {
     "name": "heihachi",
     "label": "Heihachi",
-    "img": ""
+    "img": "imgs/chars/heihachi.png"
   },
   {
     "name": "hwoarang",
     "label": "Hwoarang",
-    "img": ""
+    "img": "imgs/chars/hwroang.png"
   },
   {
     "name": "jack7",
     "label": "Jack 7",
-    "img": ""
+    "img": "imgs/chars/jack.png"
   },
   {
     "name": "jin",
     "label": "Jin",
-    "img": ""
+    "img": "imgs/chars/jin.png"
   },
   {
     "name": "josie",
     "label": "Josie",
-    "img": ""
+    "img": "imgs/chars/josie.png"
   },
   {
     "name": "julia",
     "label": "Julia",
-    "img": ""
+    "img": "imgs/chars/julia.png"
   },
   {
     "name": "katarina",
     "label": "Katarina",
-    "img": ""
+    "img": "imgs/chars/katarina.png"
   },
   {
     "name": "kazumi",
     "label": "Kazumi",
-    "img": ""
+    "img": "imgs/chars/kazumi.png"
   },
   {
     "name": "kazuya",
     "label": "Kazuya",
-    "img": ""
+    "img": "imgs/chars/kazuya.png"
   },
   {
     "name": "king",
     "label": "King",
-    "img": ""
+    "img": "imgs/chars/king.png"
   },
   {
     "name": "kuma",
     "label": "Kuma",
-    "img": ""
+    "img": "imgs/chars/kuma-mishima.png"
   },
   {
     "name": "lars",
     "label": "Lars",
-    "img": ""
+    "img": "imgs/chars/lars.png"
   },
   {
     "name": "law",
     "label": "Law",
-    "img": ""
+    "img": "imgs/chars/law.png"
   },
   {
     "name": "lee",
     "label": "Lee",
-    "img": ""
+    "img": "imgs/chars/lee_chaolin_tekken_7_render_cutout_by_deadlypoisonbeauty_db3lqhh-fullview.png"
   },
   {
     "name": "lei",
     "label": "Lei",
-    "img": ""
+    "img": "imgs/chars/lei.png"
   },
   {
     "name": "leo",
     "label": "Leo",
-    "img": ""
+    "img": "imgs/chars/leo.png"
   },
   {
     "name": "leroy",
     "label": "Leroy",
-    "img": ""
+    "img": "imgs/chars/"
   },
   {
     "name": "lili",
     "label": "Lili",
-    "img": ""
+    "img": "imgs/chars/lili.png"
   },
   {
     "name": "luckyChloe",
     "label": "Lucky Chloe",
-    "img": ""
+    "img": "imgs/chars/luckychloe.png"
   },
   {
     "name": "marduk",
     "label": "Marduk",
-    "img": ""
+    "img": "imgs/chars/marduk.png"
   },
   {
     "name": "masterRaven",
     "label": "Master Raven",
-    "img": ""
+    "img": "imgs/chars/masterraven.png"
   },
   {
     "name": "miguel",
     "label": "Miguel",
-    "img": ""
+    "img": "imgs/chars/miguel.png"
   },
   {
     "name": "negan",
     "label": "Negan",
-    "img": ""
+    "img": "imgs/chars/negan.png"
   },
   {
     "name": "nina",
     "label": "Nina",
-    "img": ""
+    "img": "imgs/chars/nina.png"
   },
   {
     "name": "noctis",
     "label": "Noctis",
-    "img": ""
+    "img": "imgs/chars/noctis.png"
   },
   {
     "name": "paul",
     "label": "Paul",
-    "img": ""
+    "img": "imgs/chars/paul.png"
   },
   {
     "name": "shaheen",
     "label": "Shaheen",
-    "img": ""
+    "img": "imgs/chars/shaheen.png"
   },
   {
     "name": "steve",
     "label": "Steve",
-    "img": ""
+    "img": "imgs/chars/steve-fox.png"
   },
   {
     "name": "xiaoyu",
     "label": "Xiaoyu",
-    "img": ""
+    "img": "imgs/chars/xiao.png"
   },
   {
     "name": "yoshimitsu",
     "label": "Yoshimitsu",
-    "img": ""
+    "img": "imgs/chars/yoshimitsu.png"
   },
   {
     "name": "zafina",
     "label": "Zafina",
-    "img": ""
+    "img": "imgs/chars/zafina_tekken_7_cutout_png_render_by_deadlypoisonbeauty_dde5t7p-fullview.png"
   },
   {
     "name": "Fahkumram",
     "label": "Fahkumram",
-    "img": ""
+    "img": "imgs/chars/"
   },
 ];
 const charLabel = document.getElementById('charLabel');
 const randomButton = document.querySelector('.random');
+const switchMode = document.querySelector('.switch-mode');
+console.log(switchMode)
+const htmlParent = document.querySelector('html');
+
+const switcher = () => {
+  htmlParent.setAttribute("data-theme", "dark");
+};
 
 function randomizeCharacters() {
   let chosenCharacter = characters[Math.floor(characters.length * Math.random())];
@@ -250,3 +257,4 @@ function randomizeCharacters() {
 };
 
 randomButton.addEventListener('click', randomizeCharacters, true);
+switchMode.addEventListener('click', switcher, true);
