@@ -14,11 +14,12 @@ html[data-theme='dark'] {
 	--background: url(imgs/infiniteazure2.jpg);
 }
 
-*{
+* {
   font-smooth: always;
   font-family: sans-serif;
   color: var(--text-color-normal);
 }
+
 html {
   background: var(--background);
   background-size: cover;
