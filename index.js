@@ -7,12 +7,12 @@ const characters = [
   {
     "name": "alisa",
     "label": "Alisa",
-    "img": "imgs/chars/akuma.png"
+    "img": "imgs/chars/alysaa.png"
   },
   {
     "name": "anna",
     "label": "Anna",
-    "img": "imgs/chars/akuma.png"
+    "img": "imgs/chars/anna.png"
   },
   {
     "name": "armorKing",
