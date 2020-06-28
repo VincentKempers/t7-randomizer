@@ -243,16 +243,18 @@ const characters = [
 const charLabel = document.getElementById('charLabel');
 const randomButton = document.querySelector('.random');
 const switchMode = document.querySelector('.switch-mode');
+const createdImg = document.querySelector('#charImg');
 console.log(switchMode)
 const htmlParent = document.querySelector('html');
 
 const switcher = () => {
-  htmlParent.setAttribute("data-theme", "dark");
+  htmlParent.toggleAttribute("data-theme", "dark");
 };
 
 function randomizeCharacters() {
   let chosenCharacter = characters[Math.floor(characters.length * Math.random())];
   console.log(charLabel);
+  createdImg.src= chosenCharacter.img;
   charLabel.innerHTML = `${chosenCharacter.label}`;
 };
 

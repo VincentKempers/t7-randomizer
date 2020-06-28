@@ -36,7 +36,17 @@ main {
   justify-content: center;
   align-items: center;
   width:auto;
-  height: 98vh;
+  height: 100vh;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30em;
+  text-align: center;
 }
 
 .switch-mode {
@@ -53,4 +63,9 @@ h2 {
 span {
   font-size: .5em;
   font-style: italic;
+}
+
+#charImg {
+  max-height: 25em;
+  min-height: 23em;
 }
