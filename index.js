@@ -237,9 +237,11 @@ const characters = [
   {
     "name": "Fahkumram",
     "label": "Fahkumram",
-    "img": "imgs/chars/"
+    "img": "imgs/chars/Fahkumram.jpg"
   },
 ];
+
+// variables
 const charLabel = document.getElementById('charLabel');
 const randomButton = document.querySelector('.random');
 const switchMode = document.querySelector('.switch-mode');
@@ -247,16 +249,27 @@ const createdImg = document.querySelector('#charImg');
 console.log(switchMode)
 const htmlParent = document.querySelector('html');
 
+// dark mode switcher
 const switcher = () => {
   htmlParent.toggleAttribute("data-theme", "dark");
 };
 
+// randomizer
 function randomizeCharacters() {
   let chosenCharacter = characters[Math.floor(characters.length * Math.random())];
   console.log(charLabel);
   createdImg.src= chosenCharacter.img;
   charLabel.innerHTML = `${chosenCharacter.label}`;
 };
+
+// events
+window.addEventListener('keydown', (event) => {
+  console.log(event);
+  if (event.code === "Space") {
+    randomizeCharacters();
+  }
+}, true);
+
 
 randomButton.addEventListener('click', randomizeCharacters, true);
 switchMode.addEventListener('click', switcher, true);
