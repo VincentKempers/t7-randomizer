@@ -7,7 +7,7 @@ const characters = [
   {
     "name": "alisa",
     "label": "Alisa",
-    "img": "imgs/chars/alysaa.png"
+    "img": "imgs/chars/alysa.png"
   },
   {
     "name": "anna",
@@ -246,7 +246,6 @@ const charLabel = document.getElementById('charLabel');
 const randomButton = document.querySelector('.random');
 const switchMode = document.querySelector('.switch-mode');
 const createdImg = document.querySelector('#charImg');
-console.log(switchMode)
 const htmlParent = document.querySelector('html');
 
 // dark mode switcher
@@ -257,8 +256,8 @@ const switcher = () => {
 // randomizer
 function randomizeCharacters() {
   let chosenCharacter = characters[Math.floor(characters.length * Math.random())];
-  console.log(charLabel);
   createdImg.src= chosenCharacter.img;
+  createdImg.alt= `${chosenCharacter.label} of Tekken 7`;
   charLabel.innerHTML = `${chosenCharacter.label}`;
 };
 
@@ -272,4 +271,4 @@ window.addEventListener('keydown', (event) => {
 
 
 randomButton.addEventListener('click', randomizeCharacters, true);
-switchMode.addEventListener('click', switcher, true);
+switchMode.addEventListener('click', switcher);
